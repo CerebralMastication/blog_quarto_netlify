@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Cerebral Mastication",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 3, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nThis is a test post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 3, 2024\n\n\nJD Long\n\n\n\n\n\n\nNo matching items"
+    "text": "Building Terrible AI Systems\n\n\n\n\n\n\npodcast\n\n\nnews\n\n\nAI\n\n\nLLMs\n\n\n\n\n\n\n\n\n\nJun 3, 2024\n\n\nJason Liu\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -33,5 +33,12 @@
     "title": "This is a test post",
     "section": "",
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/building-terrible-ai/index.html",
+    "href": "posts/building-terrible-ai/index.html",
+    "title": "Building Terrible AI Systems",
+    "section": "",
+    "text": "I enjoyed the heck out of this conversation between Hugo Browne-Anderson and Jason Liu on Hugo’s podcast, Vanishing Gradients. It took me a while to realize that Jason is the “Pydantic is all You Need” guy. I’ll comment on that discussion later.\nWhat’s really interesting here is that Jason has applied background in using LLMs in anger to create production systems. There’s repeated back and forth about RAG vs. Long Context, vs. Fine Tuning. Which is a big taking point in the AI space right now. Around 12:05 Jason gets into the trade offs between latency and compute. This theme pops up over and over. In short, Jason feels RAG is here to stay, and he makes a compelling case for that."
   }
 ]
