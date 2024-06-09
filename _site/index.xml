@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Cerebral Mastication</title>
-<link>https://www.cerebralmastication.com/</link>
-<atom:link href="https://www.cerebralmastication.com/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://cerebralmastication.com/</link>
+<atom:link href="https://cerebralmastication.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Something to chew on...</description>
 <generator>quarto-1.4.553</generator>
 <lastBuildDate>Sun, 09 Jun 2024 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Building Terrible AI Systems</title>
   <dc:creator>JD Long</dc:creator>
-  <link>https://www.cerebralmastication.com/posts/building-terrible-ai/</link>
+  <link>https://cerebralmastication.com/posts/building-terrible-ai/</link>
   <description><![CDATA[ 
 
 
@@ -33,14 +33,14 @@
   <category>news</category>
   <category>AI</category>
   <category>LLMs</category>
-  <guid>https://www.cerebralmastication.com/posts/building-terrible-ai/</guid>
+  <guid>https://cerebralmastication.com/posts/building-terrible-ai/</guid>
   <pubDate>Sun, 09 Jun 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://www.cerebralmastication.com/posts/building-terrible-ai/jasonliu.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://cerebralmastication.com/posts/building-terrible-ai/jasonliu.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Pydantic is all You Need</title>
   <dc:creator>JD Long</dc:creator>
-  <link>https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/</link>
+  <link>https://cerebralmastication.com/posts/pydantic-is-all-you-need/</link>
   <description><![CDATA[ 
 
 
@@ -54,8 +54,8 @@
 <p>So when Pydantic was recommended to me I was like, “doesn’t feel like a tool that fits my hand.”</p>
 <p>However in this video, Jason Liu lays out a compelling case why Pydantic is the magic glue that allows LLMs to fit inside of software workflows and not randomly break things (much). He lays out a workflow where LLMs return data into Pydantic validator and that helps ensure that the results end up properly parsed and formatted.</p>
 <p>Jason created a light weight library called <code>instructor</code> that wraps these ideas so they are easy to use:</p>
-<p><img src="https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/images/clipboard-2508492746.png" class="img-fluid"></p>
-<p><img src="https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/images/clipboard-2169954212.png" class="img-fluid"></p>
+<p><img src="https://cerebralmastication.com/posts/pydantic-is-all-you-need/images/clipboard-2508492746.png" class="img-fluid"></p>
+<p><img src="https://cerebralmastication.com/posts/pydantic-is-all-you-need/images/clipboard-2169954212.png" class="img-fluid"></p>
 <p>Instructor is used in concert with Open.ai function calling to ensure correctly formatted values are going in and out of the model. Seems like a cool approach.</p>
 <p>This is worth watching if you’re interested in calling LLMs with code.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yj-wSRJwrrc?si=R7eDJRciy-N31wKn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
@@ -68,9 +68,9 @@
   <category>news</category>
   <category>AI</category>
   <category>LLMs</category>
-  <guid>https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/</guid>
+  <guid>https://cerebralmastication.com/posts/pydantic-is-all-you-need/</guid>
   <pubDate>Sun, 02 Jun 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/pydantic.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://cerebralmastication.com/posts/pydantic-is-all-you-need/pydantic.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

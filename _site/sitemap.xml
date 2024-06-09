@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.cerebralmastication.com/index.html</loc>
-    <lastmod>2024-06-09T14:49:06.138Z</lastmod>
+    <lastmod>2024-06-09T20:23:56.752Z</lastmod>
   </url>
   <url>
     <loc>https://www.cerebralmastication.com/posts/test-post/index.html</loc>
@@ -22,6 +22,14 @@
   </url>
   <url>
     <loc>https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/index.html</loc>
+    <lastmod>2024-06-09T20:20:16.781Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cerebralmastication.com/index.html</loc>
+    <lastmod>2024-06-09T20:23:56.752Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cerebralmastication.com/posts/pydantic-is-all-you-need/index.html</loc>
     <lastmod>2024-06-09T20:20:16.781Z</lastmod>
   </url>
 </urlset>
