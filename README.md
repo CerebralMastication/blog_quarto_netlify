@@ -1,4 +1,4 @@
-# Source Code for cerebralmastication.com
+# Source Code for the blog at CerebralMastication.com 
 
 you can see the rendered blog here: <https://cerebralmastication.com>
 
