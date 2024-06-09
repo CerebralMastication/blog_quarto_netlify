@@ -9,6 +9,11 @@
 <link>https://cerebralmastication.com/</link>
 <atom:link href="https://cerebralmastication.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Something to chew on...</description>
+<image>
+<url>https://cerebralmastication.com/img/logo.jpg</url>
+<title>Cerebral Mastication</title>
+<link>https://cerebralmastication.com/</link>
+</image>
 <generator>quarto-1.4.553</generator>
 <lastBuildDate>Sun, 09 Jun 2024 04:00:00 GMT</lastBuildDate>
 <item>

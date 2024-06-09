@@ -3,8 +3,10 @@ project:
 
 website:
   title: "Cerebral Mastication"
+  image: img/logo.jpg
   site-url: https://cerebralmastication.com
   description: "Something to chew on..."
+  repo-actions: edit
   open-graph:
     locale: es_ES
     site-name: "Cerebral Mastication"
@@ -22,8 +24,7 @@ format:
   html:
     theme: Sandstone
     css: styles.css
+    toc: true
 
 editor: visual
 
-body-header: | 
-  ![Logo image](/img/logo.jpg)

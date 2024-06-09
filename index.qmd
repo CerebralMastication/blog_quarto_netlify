@@ -1,12 +1,12 @@
 ---
-title: "Cerebral Mastication"
+title: "Cerebral Mastication - Something to Chew On"
 listing:
   contents: posts
   sort: "date desc"
   type: default
   categories: true
   feed: true
-  sort-ui: false
+  sort-ui: true
   filter-ui: false
 page-layout: full
 title-block-banner: true
