@@ -1,19 +1,46 @@
 ---
-title: "About"
+title: "About Cerebral Mastication"
 image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/CerebralMastication
+    - icon: mastodon
+      text: Mastodon
+      href: https://mastodon.social/@Cmastication
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
-
+      href: https://www.linkedin.com/in/jamesdlong/
 ---
 
-About this blog
+Hey y'all. This is the personal blog of James David Long (aka JD Long). This blog in no way represents the views of my employer, my wife, or my dog, Sparky. My views shared here are my take on what I see in the world around me with an emphasis on technology, computing, data, and occasionally agriculture.
+
+I can be seen at tech conferences running my mouth and trying to share with others the lessons I've learned so I can help spare them some pain. Here's a selection of a few times someone had a camera rolling when I ran my mouth:
+
+Posit::conf(2023) - Abstractions All the Way Down
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pa1PNfoOp-I?si=hCQpEFnLhuvuY5nh&amp;start=100" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+PyCon Ireland 2022 - Subtraction is Hard
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7Z7_SWcw7uk?si=hfMCDbPpOrh6UcWi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+Data Science Salon Podcast (audio only) - Probabilistic Thinking
+
+`<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/f218dbf1-2a9c-4817-9c10-2359a480beae?dark=false"`{=html}
+
+</iframe>
+
+RStudio::conf(2019) - Empathy in Action
+
+<https://posit.co/resources/videos/putting-empathy-in-action-building-a-community-of-practice-for-analytics-in-a-global-corporation/>
+
+I'm also coauthor of R Cookbook 2nd Edition along with Paul Teetor. We give the book contents away for free at <https://rc2e.com>. Or you can buy a dead tree version where ever tech books are sold.
+
+[![R Cookbook 2nd Edition](book_cover.jpg)](https://rc2e.com)

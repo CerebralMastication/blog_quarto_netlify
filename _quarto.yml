@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Cerebral Mastication"
+  site-url: https://www.cerebralmastication.com
+  description: "Something to chew on..."
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/CerebralMastication
+      - icon: Mastodon
+        href: https://mastodon.social/@Cmastication
+      - icon: rss
+        href: index.xml
+format:
+  html:
+    theme: Sandstone
+    css: styles.css
+
+editor: visual
+
