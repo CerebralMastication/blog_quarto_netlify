@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/pydantic-is-all-you-need/index.html",
       "/posts/building-terrible-ai/index.html"
     ]
   }

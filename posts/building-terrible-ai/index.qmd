@@ -1,6 +1,6 @@
 ---
 title: "Building Terrible AI Systems"
-author: "Jason Liu"
+author: "JD Long"
 date: "2024-06-09"
 categories: [podcast, news, AI, LLMs]
 image: "jasonliu.jpg"

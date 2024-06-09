@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Cerebral Mastication",
     "section": "",
-    "text": "Building Terrible AI Systems\n\n\n\n\n\n\npodcast\n\n\nnews\n\n\nAI\n\n\nLLMs\n\n\n\n\n\n\n\n\n\nJun 3, 2024\n\n\nJason Liu\n\n\n\n\n\n\nNo matching items"
+    "text": "Pydantic is all You Need\n\n\n\n\n\n\npodcast\n\n\nnews\n\n\nAI\n\n\nLLMs\n\n\n\n\n\n\n\n\n\nJun 10, 2024\n\n\nJD Long\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Terrible AI Systems\n\n\n\n\n\n\npodcast\n\n\nnews\n\n\nAI\n\n\nLLMs\n\n\n\n\n\n\n\n\n\nJun 9, 2024\n\n\nJD Long\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -40,5 +40,12 @@
     "title": "Building Terrible AI Systems",
     "section": "",
     "text": "I enjoyed the heck out of this conversation between Hugo Browne-Anderson and Jason Liu on Hugo’s podcast, Vanishing Gradients. It took me a while to realize that Jason is the “Pydantic is all You Need” guy. I’ll comment on that discussion later.\nWhat’s really interesting here is that Jason has applied background in using LLMs in anger to create production systems. There’s repeated back and forth about RAG vs. Long Context, vs. Fine Tuning. Which is a big taking point in the AI space right now. Around 12:05 Jason gets into the trade offs between latency and compute. This theme pops up over and over. In short, Jason feels RAG is here to stay, and he makes a compelling case for that."
+  },
+  {
+    "objectID": "posts/pydantic-is-all-you-need/index.html",
+    "href": "posts/pydantic-is-all-you-need/index.html",
+    "title": "Pydantic is all You Need",
+    "section": "",
+    "text": "I absolutely didn’t grok Pydantic the first time I had a coworker recommend using it. The big impedance mismatch was that I don’t use a lot of objects in my Python code. Most of my workflows are data transforms that look like:\n\n1. suck data into a data frame 1. do some transforms on that data 1. maybe join to other data 1. get fancy and apply a function to a column in that dataframe 1. dump the result into a database 1. create some graphs or tables from a summary\nIn a data science or data engineering workflow like that, the only real objects with methods and such are the data frames. And those aren’t my objects. They are Pandas objects. I just pass them around. My experience is that if I try to make my own objects for my type workflows, I just end up with code that’s harder to read and less performant. Neither of whcih interest me. So I just don’t create my own objects in Python.\nSo when Pydantic was recommended to me I was like, “doesn’t feel like a tool that fits my hand.”\nHowever in this video, Jason Liu lays out a compelling case why Pydantic is the magic glue that allows LLMs to fit inside of software workflows and not randomly break things (much). He lays out a workflow where LLMs return data into Pydantic validator and that helps ensure that the results end up properly parsed and formatted.\nJason created a light weight library called instructor that wraps these ideas so they are easy to use:\n\n\nInstructor is used in concert with Open.ai function calling to ensure correctly formatted values are going in and out of the model. Seems like a cool approach.\nThis is worth watching if you’re interested in calling LLMs with code."
   }
 ]

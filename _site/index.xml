@@ -10,10 +10,45 @@
 <atom:link href="https://www.cerebralmastication.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Something to chew on...</description>
 <generator>quarto-1.4.553</generator>
-<lastBuildDate>Mon, 03 Jun 2024 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 10 Jun 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Pydantic is all You Need</title>
+  <dc:creator>JD Long</dc:creator>
+  <link>https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I absolutely didn’t grok Pydantic the first time I had a coworker recommend using it. The big impedance mismatch was that I don’t use a lot of objects in my Python code. Most of my workflows are data transforms that look like:</p>
+<p><br>
+1. suck data into a data frame 1. do some transforms on that data 1. maybe join to other data 1. get fancy and apply a function to a column in that dataframe 1. dump the result into a database 1. create some graphs or tables from a summary</p>
+<p>In a data science or data engineering workflow like that, the only real objects with methods and such are the data frames. And those aren’t <strong><em>my</em></strong> objects. They are Pandas objects. I just pass them around. My experience is that if I try to make my own objects for my type workflows, I just end up with code that’s harder to read and less performant. Neither of whcih interest me. So I just don’t create my own objects in Python.</p>
+<p>So when Pydantic was recommended to me I was like, “doesn’t feel like a tool that fits my hand.”</p>
+<p>However in this video, Jason Liu lays out a compelling case why Pydantic is the magic glue that allows LLMs to fit inside of software workflows and not randomly break things (much). He lays out a workflow where LLMs return data into Pydantic validator and that helps ensure that the results end up properly parsed and formatted.</p>
+<p>Jason created a light weight library called <code>instructor</code> that wraps these ideas so they are easy to use:</p>
+<p><img src="https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/images/clipboard-2508492746.png" class="img-fluid"></p>
+<p><img src="https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/images/clipboard-2169954212.png" class="img-fluid"></p>
+<p>Instructor is used in concert with Open.ai function calling to ensure correctly formatted values are going in and out of the model. Seems like a cool approach.</p>
+<p>This is worth watching if you’re interested in calling LLMs with code.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yj-wSRJwrrc?si=R7eDJRciy-N31wKn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+
+
+
+ ]]></description>
+  <category>podcast</category>
+  <category>news</category>
+  <category>AI</category>
+  <category>LLMs</category>
+  <guid>https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/</guid>
+  <pubDate>Mon, 10 Jun 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/pydantic.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Building Terrible AI Systems</title>
-  <dc:creator>Jason Liu</dc:creator>
+  <dc:creator>JD Long</dc:creator>
   <link>https://www.cerebralmastication.com/posts/building-terrible-ai/</link>
   <description><![CDATA[ 
 
@@ -34,8 +69,8 @@
   <category>AI</category>
   <category>LLMs</category>
   <guid>https://www.cerebralmastication.com/posts/building-terrible-ai/</guid>
-  <pubDate>Mon, 03 Jun 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://www.cerebralmastication.com/posts/building-terrible-ai/jalsonliu.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Sun, 09 Jun 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://www.cerebralmastication.com/posts/building-terrible-ai/jasonliu.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
