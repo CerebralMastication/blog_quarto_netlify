@@ -3,7 +3,7 @@ title: "Building Terrible AI Systems"
 author: "Jason Liu"
 date: "2024-06-03"
 categories: [podcast, news, AI, LLMs]
-image: "jalsonliu.jpg"
+image: "jasonliu.jpg"
 ---
 
 I enjoyed the heck out of this conversation between Hugo Browne-Anderson and Jason Liu on Hugo's podcast, Vanishing Gradients. It took me a while to realize that Jason is the "Pydantic is all You Need" guy. I'll comment on that discussion later.
