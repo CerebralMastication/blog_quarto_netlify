@@ -101,6 +101,11 @@ ul.task-list li input[type="checkbox"] {
 </i> 
 <span class="menu-text"></span></a>
   </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -125,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </header><main class="content" id="quarto-document-content">
 <p>Hey y’all. This is the personal blog of James David Long (aka JD Long). This blog in no way represents the views of my employer, my wife, or my dog, Sparky. My views shared here are my take on what I see in the world around me with an emphasis on technology, computing, data, and occasionally agriculture.</p>
-<p>I can be seen at tech conferences running my mouth and trying to share with others the lessons I’ve learned so I can help spare them some pain. Here’s a selection of a few times someone had a camera rolling when I ran my mouth:</p>
+<p>I can be seen at tech conferences running my mouth and trying to share with others the lessons I’ve learned so I can help spare them some pain. Here’s a selection of a few times someone had a recording device rolling when I ran my mouth:</p>
 <p>Posit::conf(2023) - Abstractions All the Way Down</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pa1PNfoOp-I?si=hCQpEFnLhuvuY5nh&amp;start=100" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
@@ -135,8 +140,9 @@ ul.task-list li input[type="checkbox"] {
 <p>Data Science Salon Podcast (audio only) - Probabilistic Thinking</p>
 <p><iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless="" src="https://player.simplecast.com/f218dbf1-2a9c-4817-9c10-2359a480beae?dark=false" <="" p="">
 </iframe>
-</p><p>RStudio::conf(2019) - Empathy in Action</p>
-<p><a href="https://posit.co/resources/videos/putting-empathy-in-action-building-a-community-of-practice-for-analytics-in-a-global-corporation/" class="uri">https://posit.co/resources/videos/putting-empathy-in-action-building-a-community-of-practice-for-analytics-in-a-global-corporation/</a></p>
+</p><p>NYR Conference - The Unreasonable Effectiveness of Empathy</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P7VnKgVMLvY?si=ZlEkYzRBbq8keFMS&amp;start=116" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
 <p>I’m also coauthor of R Cookbook 2nd Edition along with Paul Teetor. We give the book contents away for free at <a href="https://rc2e.com" class="uri">https://rc2e.com</a>. Or you can buy a dead tree version where ever tech books are sold.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -238,7 +244,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/www\.cerebralmastication\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
