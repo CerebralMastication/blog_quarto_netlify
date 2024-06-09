@@ -10,7 +10,33 @@
 <atom:link href="https://www.cerebralmastication.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Something to chew on...</description>
 <generator>quarto-1.4.553</generator>
-<lastBuildDate>Mon, 10 Jun 2024 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 09 Jun 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Building Terrible AI Systems</title>
+  <dc:creator>JD Long</dc:creator>
+  <link>https://www.cerebralmastication.com/posts/building-terrible-ai/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I enjoyed the heck out of this conversation between Hugo Browne-Anderson and Jason Liu on Hugo’s podcast, Vanishing Gradients. It took me a while to realize that Jason is the “Pydantic is all You Need” guy. I’ll comment on that discussion later.</p>
+<p>What’s really interesting here is that Jason has applied background in using LLMs in anger to create production systems. There’s repeated back and forth about RAG vs.&nbsp;Long Context, vs.&nbsp;Fine Tuning. Which is a big taking point in the AI space right now. Around 12:05 Jason gets into the trade offs between latency and compute. This theme pops up over and over. In short, Jason feels RAG is here to stay, and he makes a compelling case for that.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/USTG6sQlB6s?si=LdQqOA3eTmUVTfmG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+
+
+
+ ]]></description>
+  <category>podcast</category>
+  <category>news</category>
+  <category>AI</category>
+  <category>LLMs</category>
+  <guid>https://www.cerebralmastication.com/posts/building-terrible-ai/</guid>
+  <pubDate>Sun, 09 Jun 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://www.cerebralmastication.com/posts/building-terrible-ai/jasonliu.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Pydantic is all You Need</title>
   <dc:creator>JD Long</dc:creator>
@@ -43,34 +69,8 @@
   <category>AI</category>
   <category>LLMs</category>
   <guid>https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/</guid>
-  <pubDate>Mon, 10 Jun 2024 04:00:00 GMT</pubDate>
+  <pubDate>Sun, 02 Jun 2024 04:00:00 GMT</pubDate>
   <media:content url="https://www.cerebralmastication.com/posts/pydantic-is-all-you-need/pydantic.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Building Terrible AI Systems</title>
-  <dc:creator>JD Long</dc:creator>
-  <link>https://www.cerebralmastication.com/posts/building-terrible-ai/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I enjoyed the heck out of this conversation between Hugo Browne-Anderson and Jason Liu on Hugo’s podcast, Vanishing Gradients. It took me a while to realize that Jason is the “Pydantic is all You Need” guy. I’ll comment on that discussion later.</p>
-<p>What’s really interesting here is that Jason has applied background in using LLMs in anger to create production systems. There’s repeated back and forth about RAG vs.&nbsp;Long Context, vs.&nbsp;Fine Tuning. Which is a big taking point in the AI space right now. Around 12:05 Jason gets into the trade offs between latency and compute. This theme pops up over and over. In short, Jason feels RAG is here to stay, and he makes a compelling case for that.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/USTG6sQlB6s?si=LdQqOA3eTmUVTfmG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-</iframe>
-
-
-
- ]]></description>
-  <category>podcast</category>
-  <category>news</category>
-  <category>AI</category>
-  <category>LLMs</category>
-  <guid>https://www.cerebralmastication.com/posts/building-terrible-ai/</guid>
-  <pubDate>Sun, 09 Jun 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://www.cerebralmastication.com/posts/building-terrible-ai/jasonliu.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

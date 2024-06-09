@@ -1,0 +1,60 @@
+---
+title: "Configuring UnixODBC on Mac"
+author: "JD Long"
+date: "2024-06-11"
+categories: [mac, unix, odbc]
+image: "inages/clipboard-758069195.png"
+draft: true
+---
+
+A huge frustration for folks using Macs inside of enterprises is connecting their Mac to databases using ODBC. And it's easy to see why:
+
+-   most vendors don't explain how to configure ODBC drivers on mac
+
+-   Macs come with iODBC as default and it is trash
+
+-   Most enterprise help desks are unhelpful with any set of tooling other than Windows
+
+-   The dependency chain of tools is opaque
+
+-   We often want to connect to SQL Server and Microsoft fights against us while yelling "we're Linux and Mac friendly" while stomping our toes and poking us in the eyes. (proverbially, of course)
+
+-   The documentation for unixODBC was clearly written in 1990
+
+![](images/clipboard-758069195.png)
+
+This all goes better if we make a few starting assumptions:
+
+1.  forget iODBC exists
+
+2.  Use Homebrew for package management
+
+3.  Use connection strings for connecting to ODBC drivers from your Python or R code. Don't use DSN file definitions. If you use connections stored in files, you are dependent on other folks to have those same config files in order to run the code. Meh.
+
+Installing unixODBC and FreeTDS (for access to MS Sql) is pretty straight forward if Homebrew is installed:
+
+``` bash
+brew update
+brew install unixodbc
+brew install freetds
+```
+
+That should install what you need to get started. After those install without errors, we need to configure two files: `freetds.conf` and `odbcinst.ini`.
+
+Let's edit `odbcinst.ini` first and put in that file a link to FreeTDS drivers. It feels like the install should do this automagically but it doesn't. On my Intel based Mac, this file is located in `/usr/local/etc/odbcinst.ini`. However on ARM Macs the location may be elsewhere. To find it, run:
+
+`find /usr -name odbcinst.ini`
+
+That should return the location of the `odbcinst.ini` files. You want the one that's not in the Homebrew `Cellar` path.
+
+The `odbcinst.ini` file may be empty. Or it may have other configuration bits in it. You want to add this to the file:
+
+``` bash
+[FreeTDS]
+Description = FreeTDS Driver
+Driver = /usr/local/lib/libtdsodbc.so
+```
+
+check and make sure the `Driver` path is correct on your machine. If the file is not there, find it using `find /usr -name libtdsodbc.so`
+
+At this point a lot of instructions encourage us to edit the `odbc.ini` to add a DSN section. I do NOT recommend doing this. I prefer to fully define the connection string in my
