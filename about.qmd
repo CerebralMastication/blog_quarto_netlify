@@ -17,7 +17,7 @@ about:
 
 Hey y'all. This is the personal blog of James David Long (aka JD Long). This blog in no way represents the views of my employer, my wife, or my dog, Sparky. My views shared here are my take on what I see in the world around me with an emphasis on technology, computing, data, and occasionally agriculture.
 
-I can be seen at tech conferences running my mouth and trying to share with others the lessons I've learned so I can help spare them some pain. Here's a selection of a few times someone had a camera rolling when I ran my mouth:
+I can be seen at tech conferences running my mouth and trying to share with others the lessons I've learned so I can help spare them some pain. Here's a selection of a few times someone had a recording device rolling when I ran my mouth:
 
 Posit::conf(2023) - Abstractions All the Way Down
 
@@ -37,9 +37,11 @@ Data Science Salon Podcast (audio only) - Probabilistic Thinking
 
 </iframe>
 
-RStudio::conf(2019) - Empathy in Action
+NYR Conference - The Unreasonable Effectiveness of Empathy
 
-<https://posit.co/resources/videos/putting-empathy-in-action-building-a-community-of-practice-for-analytics-in-a-global-corporation/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P7VnKgVMLvY?si=ZlEkYzRBbq8keFMS&amp;start=116" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
 
 I'm also coauthor of R Cookbook 2nd Edition along with Paul Teetor. We give the book contents away for free at <https://rc2e.com>. Or you can buy a dead tree version where ever tech books are sold.
 
